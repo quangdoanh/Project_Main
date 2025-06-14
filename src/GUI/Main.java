@@ -1,8 +1,7 @@
 package GUI;
 
-import DTO.NhanVienDTO;
 import DTO.TaiKhoanDTO;
-import GUI.Component.MenuTaskbar;
+//import GUI.Component.MenuTaskbar;
 //import GUI.Panel.PhieuNhap;
 import GUI.Panel.TrangChu;
 import java.awt.*;
@@ -17,7 +16,7 @@ public class Main extends JFrame {
     public JPanel MainContent;
     public TaiKhoanDTO user;
     Color MainColor = new Color(250, 250, 250);
-    private MenuTaskbar menuTaskbar;
+//    private MenuTaskbar menuTaskbar;
 
     private TrangChu trangChu;
 //    private PhieuNhap phieuNhap;
@@ -28,22 +27,22 @@ public class Main extends JFrame {
         this.setLayout(new BorderLayout(0, 0));
         this.setTitle("Hệ thống quản lý kho hàng");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        if (user != null) {
-            menuTaskbar = new MenuTaskbar(this, user);
-        } else {
-            menuTaskbar = new MenuTaskbar(this);
-        }
-
-        menuTaskbar.setPreferredSize(new Dimension(250, 1400));
-
-        this.add(menuTaskbar, BorderLayout.WEST);
-
-        MainContent = new JPanel();
-        MainContent.setBackground(MainColor);
-        MainContent.setLayout(new BorderLayout(0, 0));
-
-        this.add(MainContent, BorderLayout.CENTER);
-
+//        if (user != null) {
+//            menuTaskbar = new MenuTaskbar(this, user);
+//        } else {
+//            menuTaskbar = new MenuTaskbar(this);
+//        }
+//
+//        menuTaskbar.setPreferredSize(new Dimension(250, 1400));
+//
+//        this.add(menuTaskbar, BorderLayout.WEST);
+//
+//        MainContent = new JPanel();
+//        MainContent.setBackground(MainColor);
+//        MainContent.setLayout(new BorderLayout(0, 0));
+//
+//        this.add(MainContent, BorderLayout.CENTER);
+//
         MainContent = new JPanel();
         MainContent.setBackground(MainColor);
         MainContent.setLayout(new BorderLayout(0, 0));

@@ -10,25 +10,17 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../QuanLyKhoDienThoai-main/lib/flatlaf-3.0.jar!/" />
+          <root url="file://$MODULE_DIR$/../../QuanLyKhoDienThoai-main/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../QuanLyKhoDienThoai-main/lib" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../QuanLyKhoDienThoai-main/lib/flatlaf-extras-3.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../QuanLyKhoDienThoai-main/lib/flatlaf-fonts-roboto-2.137.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/jbcrypt-0.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
