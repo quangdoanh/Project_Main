@@ -12,6 +12,12 @@ public class TaiKhoanDTO {
     public TaiKhoanDTO() {
 
     }
+    public TaiKhoanDTO(int manv, String username, int manhomquyen, int trangthai) {
+        this.manv = manv;
+        this.username = username;
+        this.manhomquyen = manhomquyen;
+        this.trangthai = trangthai;
+    }
 
     public TaiKhoanDTO(int manv, String username, String matkhau, int manhomquyen, int trangthai) {
         this.manv = manv;
