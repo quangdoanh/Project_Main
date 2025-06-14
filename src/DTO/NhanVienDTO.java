@@ -1,7 +1,7 @@
-
-package DTO;
+package DTO.OBJECTS;
 
 import java.util.Date;
+import java.util.Objects;
 
 public class NhanVienDTO {
 
@@ -9,14 +9,12 @@ public class NhanVienDTO {
     private String hoten;
     private int gioitinh;
     private String sdt;
-    private Date ngaysinh;
+    private String ngaysinh;
     private int trangthai;
     private String email;
 
-    public NhanVienDTO() {
-    }
 
-    public NhanVienDTO(int manv, String hoten, int gioitinh, Date ngaysinh, String sdt, int trangthai, String email) {
+    public NhanVienDTO(int manv, String hoten, int gioitinh, String ngaysinh, String sdt, int trangthai, String email) {
         this.manv = manv;
         this.hoten = hoten;
         this.gioitinh = gioitinh;
@@ -26,14 +24,7 @@ public class NhanVienDTO {
         this.email = email;
     }
 
-    public NhanVienDTO(String hoten, int gioitinh, Date ngaysinh, String sdt, int trangthai) {
-        this.hoten = hoten;
-        this.gioitinh = gioitinh;
-        this.ngaysinh = ngaysinh;
-        this.sdt = sdt;
-        this.trangthai = trangthai;
-        this.email = email;
-    }
+
 
     public int getManv() {
         return manv;
@@ -59,11 +50,11 @@ public class NhanVienDTO {
         this.gioitinh = gioitinh;
     }
 
-    public Date getNgaysinh() {
+    public String getNgaysinh() {
         return ngaysinh;
     }
 
-    public void setNgaysinh(Date ngaysinh) {
+    public void setNgaysinh(String ngaysinh) {
         this.ngaysinh = ngaysinh;
     }
 
@@ -89,5 +80,12 @@ public class NhanVienDTO {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+
+
+    @Override
+    public String toString() {
+        return "NhanVien{" + "manv=" + manv + ", hoten=" + hoten + ", gioitinh=" + gioitinh + ", ngaysinh=" + ngaysinh + '}';
     }
 }
