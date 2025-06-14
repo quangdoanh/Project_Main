@@ -3,7 +3,7 @@ package GUI;
 import DTO.NhanVienDTO;
 import DTO.TaiKhoanDTO;
 import GUI.Component.MenuTaskbar;
-import GUI.Panel.PhieuNhap;
+//import GUI.Panel.PhieuNhap;
 import GUI.Panel.TrangChu;
 import java.awt.*;
 import javax.swing.*;
@@ -20,7 +20,7 @@ public class Main extends JFrame {
     private MenuTaskbar menuTaskbar;
 
     private TrangChu trangChu;
-    private PhieuNhap phieuNhap;
+//    private PhieuNhap phieuNhap;
 
     private void initComponent() {
         this.setSize(new Dimension(1400, 800));
